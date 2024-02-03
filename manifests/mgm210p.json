@@ -1,7 +1,7 @@
 {
     "name": "MGM210P",
     "target": "mgm210p",
-    "device": "EFR32MG21A020F1024IM32",
+    "device": "MGM210PA32JIA",
     "ncp-uart-hw": {
         "configuration": {
             "SL_IOSTREAM_USART_VCOM_FLOW_CONTROL_TYPE":"uartFlowControlSoftware"
