@@ -19,23 +19,22 @@ index dbce4ed..f100f68 100644
 -// #define SL_CPC_DRV_UART_VCOM_PERIPHERAL                 USART0
 -// #define SL_CPC_DRV_UART_VCOM_PERIPHERAL_NO              0
 -//
--// #define SL_CPC_DRV_UART_VCOM_TX_PORT                    gpioPortD
--// #define SL_CPC_DRV_UART_VCOM_TX_PIN                     13
+-// #define SL_CPC_DRV_UART_VCOM_TX_PORT                    gpioPortA
+-// #define SL_CPC_DRV_UART_VCOM_TX_PIN                     5
 -//
--// #define SL_CPC_DRV_UART_VCOM_RX_PORT                    gpioPortD
--// #define SL_CPC_DRV_UART_VCOM_RX_PIN                     14
+-// #define SL_CPC_DRV_UART_VCOM_RX_PORT                    gpioPortA
+-// #define SL_CPC_DRV_UART_VCOM_RX_PIN                     6
 +
 +#define SL_CPC_DRV_UART_VCOM_PERIPHERAL                 USART0
 +#define SL_CPC_DRV_UART_VCOM_PERIPHERAL_NO              0
 +
-+#define SL_CPC_DRV_UART_VCOM_TX_PORT                    gpioPortA
-+#define SL_CPC_DRV_UART_VCOM_TX_PIN                     5
++#define SL_CPC_DRV_UART_VCOM_TX_PORT                    gpioPortB
++#define SL_CPC_DRV_UART_VCOM_TX_PIN                     01
 +
-+#define SL_CPC_DRV_UART_VCOM_RX_PORT                    gpioPortA
-+#define SL_CPC_DRV_UART_VCOM_RX_PIN                     6
++#define SL_CPC_DRV_UART_VCOM_RX_PORT                    gpioPortB
++#define SL_CPC_DRV_UART_VCOM_RX_PIN                     00
  //
  // #define SL_CPC_DRV_UART_VCOM_CTS_PORT                   gpioPortD
  // #define SL_CPC_DRV_UART_VCOM_CTS_PIN                    13
 -- 
 2.40.1
-
