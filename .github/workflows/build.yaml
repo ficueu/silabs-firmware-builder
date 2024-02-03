@@ -82,8 +82,6 @@ jobs:
             baudrate: 230400
           - target: slzb-07
             baudrate: 230400
-          - target: zb-gw04-1v1
-            baudrate: 230400
           - target: zb-gw04-1v2
             baudrate: 230400
           - target: yellow
@@ -95,8 +93,6 @@ jobs:
           - target: slzb-06m
             baudrate: 115200
           - target: slzb-07
-            baudrate: 115200
-          - target: zb-gw04-1v1
             baudrate: 115200
           - target: zb-gw04-1v2
             baudrate: 115200
@@ -135,8 +131,6 @@ jobs:
             baudrate: 230400
           - target: slzb-07
             baudrate: 230400
-          - target: zb-gw04-1v1
-            baudrate: 230400
           - target: zb-gw04-1v2
             baudrate: 230400
           - target: yellow
@@ -148,8 +142,6 @@ jobs:
           - target: slzb-06m
             baudrate: 460800
           - target: slzb-07
-            baudrate: 460800
-          - target: zb-gw04-1v1
             baudrate: 460800
           - target: zb-gw04-1v2
             baudrate: 460800
@@ -189,8 +181,6 @@ jobs:
             baudrate: 230400
           - target: slzb-07
             baudrate: 230400
-          - target: zb-gw04-1v1
-            baudrate: 230400
           - target: zb-gw04-1v2
             baudrate: 230400
           - target: yellow
@@ -202,8 +192,6 @@ jobs:
           - target: slzb-06m
             baudrate: 460800
           - target: slzb-07
-            baudrate: 460800
-          - target: zb-gw04-1v1
             baudrate: 460800
           - target: zb-gw04-1v2
             baudrate: 460800
