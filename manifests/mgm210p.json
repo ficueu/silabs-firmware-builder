@@ -1,6 +1,6 @@
 {
-    "name": "MGM240P",
-    "target": "mgm240p",
+    "name": "MGM210P",
+    "target": "mgm210p",
     "device": "MGM210PA32JIA",
     "ncp-uart-hw": {
         "configuration": {
