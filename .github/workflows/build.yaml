@@ -98,7 +98,7 @@ jobs:
     strategy:
       matrix:
         target: ${{ fromJson(needs.build-matrix.outputs.targets) }}
-        baudrate: [230400, 460800]
+        baudrate: [115200, 230400, 460800]
         include: ${{ fromJson(needs.build-matrix.outputs.rcp_matrix) }}
         exclude:
           - target: yellow
