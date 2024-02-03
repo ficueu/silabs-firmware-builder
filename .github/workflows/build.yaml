@@ -76,6 +76,30 @@ jobs:
             baudrate: 230400
           - target: skyconnect
             baudrate: 230400
+          - target: elelabs-elx0x3
+            baudrate: 230400
+          - target: slzb-06m
+            baudrate: 230400
+          - target: slzb-07
+            baudrate: 230400
+          - target: zb-gw04-1v1
+            baudrate: 230400
+          - target: zb-gw04-1v2
+            baudrate: 230400
+          - target: yellow
+            baudrate: 115200
+          - target: skyconnect
+            baudrate: 115200
+          - target: elelabs-elx0x3
+            baudrate: 115200
+          - target: slzb-06m
+            baudrate: 115200
+          - target: slzb-07
+            baudrate: 115200
+          - target: zb-gw04-1v1
+            baudrate: 115200
+          - target: zb-gw04-1v2
+            baudrate: 115200
     uses: ./.github/workflows/silabs-firmware-build.yaml
     with:
       firmware_name: ncp-uart-hw-v${{ needs.build-container.outputs.ezsp_version}}-${{ matrix.target }}-${{ matrix.baudrate }}
@@ -107,6 +131,26 @@ jobs:
             baudrate: 230400
           - target: elelabs-elx0x3
             baudrate: 230400
+          - target: slzb-06m
+            baudrate: 230400
+          - target: slzb-07
+            baudrate: 230400
+          - target: zb-gw04-1v1
+            baudrate: 230400
+          - target: zb-gw04-1v2
+            baudrate: 230400
+          - target: yellow
+            baudrate: 460800
+          - target: skyconnect
+            baudrate: 460800
+          - target: elelabs-elx0x3
+            baudrate: 460800
+          - target: slzb-06m
+            baudrate: 460800
+          - target: slzb-07
+            baudrate: 460800
+          - target: zb-gw04-1v1
+            baudrate: 460800
           - target: zb-gw04-1v2
             baudrate: 460800
     uses: ./.github/workflows/silabs-firmware-build.yaml
@@ -141,6 +185,26 @@ jobs:
             baudrate: 230400
           - target: elelabs-elx0x3
             baudrate: 230400
+          - target: slzb-06m
+            baudrate: 230400
+          - target: slzb-07
+            baudrate: 230400
+          - target: zb-gw04-1v1
+            baudrate: 230400
+          - target: zb-gw04-1v2
+            baudrate: 230400
+          - target: yellow
+            baudrate: 460800
+          - target: skyconnect
+            baudrate: 460800
+          - target: elelabs-elx0x3
+            baudrate: 460800
+          - target: slzb-06m
+            baudrate: 460800
+          - target: slzb-07
+            baudrate: 460800
+          - target: zb-gw04-1v1
+            baudrate: 460800
           - target: zb-gw04-1v2
             baudrate: 460800
     uses: ./.github/workflows/silabs-firmware-build.yaml
