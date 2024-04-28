@@ -157,7 +157,7 @@ jobs:
       sdk_version: ${{ needs.build-container.outputs.sdk_version}}
       metadata_fw_type: "ot-rcp"
       baudrate: ${{ matrix.baudrate }}
-      metadata_extra: "{ \"ot_rcp_version\": \"SL-OPENTHREAD/2.4.0.0_GitHub-7074a43e4\" }"
+      metadata_extra: "{ \"ot_rcp_version\": \"SL-OPENTHREAD/2.4.2.0_GitHub-7074a43e4\" }"
 
   collect_artifacts:
     name: download and publish all artifacts
